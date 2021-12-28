@@ -1,0 +1,133 @@
+/*для всех элементов по умолчанию*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+#root {
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: column;
+    align-items: center;
+}
+
+.medicament {
+    display: flex;
+    padding: 15px;
+    border: 2px solid darkseagreen;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.medicament__btns {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background: darkseagreen;
+}
+
+.navbar__links {
+    margin-left: auto;
+}
+
+.page__wrapper {
+    margin-top: 30px;
+    display: flex;
+}
+
+.page {
+    padding: 10px;
+    border: 1px solid darkseagreen;
+    cursor: pointer;
+}
+
+.page__current {
+    border: 2px solid orange;
+    font-weight: bold;
+}
+
+.login {
+    margin-top: 200px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 200%;
+    color: darkseagreen;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    line-height: 32px;
+    text-align: center;
+}
+
+.login__btn {
+    margin-top: 50px;
+    align-items: center;
+}
+
+.profile {
+
+}
+
+.categories {
+
+}
+
+.userslist {
+
+}
+
+.medicaments {
+    width: 800px;
+}
+
+.title {
+    margin-top: 10px;
+    color: darkseagreen;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.title__small {
+    margin-top: 10px;
+    color: darkseagreen;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-align: left;
+    font-size: 120%;
+}
+
+.items__titles {
+    margin-top: 10px;
+    color: darkseagreen;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-align: left;
+    font-size: 125%;
+}
+
+.category__title {
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+.profile__expireditem {
+    display: flex;
+    padding: 15px;
+    border: 2px solid #e66465;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
